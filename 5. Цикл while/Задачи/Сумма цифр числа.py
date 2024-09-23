@@ -1,7 +1,7 @@
 # сумма числа
-a=int(input())
-b=0
-while a>0:
-    b+=a%10
-    a=a//10
+a = int(input())
+b = 0
+while a > 0:
+    b += a % 10
+    a = a // 10
 print(b)
